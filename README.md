@@ -27,7 +27,7 @@ with flair among Science/Technology, Business/finance, political, non-political,
 paste the url in predict tab and press enter, and wait for the magic :D
 
 ## How to use?
-  ### Ror training model:
+  ### For training model:
 - just clone the repo.
 - Set up a python 3 virtual environment.
 - download the requirements by pip3 install -r requirements.txt
