@@ -1,0 +1,92 @@
+body{
+    margin-top: auto;
+    background-color: #352f5b;
+    letter-spacing: 0.2em;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    max-width: 800px;
+}
+
+::placeholder{
+    color: #696969;
+    letter-spacing: 0.2em;
+}
+
+.app-name{
+    font-size: 4em;
+    color: #e25822;
+}
+
+nav{
+    color: #fff;
+    border: none;
+    background: rgb(0,0,0,0.2);
+
+}
+
+.navbar-elements a{
+    color: #fff !important;
+    font-size: 1.2em;
+}
+
+.active a{
+    font-size: 1.4em;
+}
+
+.reddit-symbol i{
+    font-size: 3em;
+    color: #e25822;
+}
+
+input[type=text],
+input[type=text]:focus{
+    max-width: 500px;
+    color: #fff;
+    border: none;
+    background: rgb(0,0,0,0.2);
+
+}
+
+.output{
+    color: rgb(214, 157, 32);
+    
+}
+.output h1{
+    font-size: 3em;
+    /* visibility: hidden; */
+}
+.send{
+    margin-top: 20em;
+}
+
+.send-button{
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    color: #e25822;
+    cursor: pointer;
+}
+.prediction-navigate{
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px !important; 
+    color: #e25822;
+    cursor: pointer;   
+}
+
+.todos li{
+    background: #423a65;
+}
+
+.filtered{
+    display: none !important;
+}

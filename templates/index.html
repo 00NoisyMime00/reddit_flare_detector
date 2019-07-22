@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container text-center mx-auto my-4">
+    <div class="prediction-navigate my-5">
+            <h2>Are you ready.. </h2>
+            <h1 my-5>To Get The Flair <i class="fas fa-fire-alt fa-2x"></i></h1>
+    </div>
+</div>
+<script>
+    let navigator = document.querySelector('.prediction-navigate');
+    navigator.addEventListener('click', e => {
+        location = "/predict";
+    });
+    navigator.style.cursor = 'pointer';
+</script>
+{% endblock %}

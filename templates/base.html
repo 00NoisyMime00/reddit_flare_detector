@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/beda478dd4.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Reddit predictor</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand reddit-symbol" href="/index">
+            <i class="fab fa-reddit-alien"></i>
+        </a>
+        
+        <div class="ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto navbar-elements">
+                {% if 'index' in url_for(request.endpoint) %}
+                <li class="nav-item text-light active">
+                    <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+                </li>
+                {% else %}
+                <li class="nav-item text-light">
+                    <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+                </li>
+                {% endif %}
+
+                {% if 'predict' in url_for(request.endpoint) %}
+                <li class="nav-item  active">
+                    <a class="nav-link" href="/predict">Predict</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="/predict">Predict</a>
+                </li>
+                {% endif %}
+
+                {% if 'Statistics' in url_for(request.endpoint) %}
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Statistics</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Statistics</a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+    <!-- body -->
+    {% block content %}
+    {% endblock %}
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</html>
