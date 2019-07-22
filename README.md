@@ -36,7 +36,7 @@ then it starts training on that data and saves the trained model as model.pkl
 
 ## Directory Structure:
 ```bash
-├── app.pu
+├── app.py
 ├── post_info.py
 ├── main.py
 ├── get_ids.py
