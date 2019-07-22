@@ -7,7 +7,6 @@ link: https://flairinator-api-heroku.herokuapp.com/predict
 Becoming a part of precog research group!!
 
 ## Tech/framework used
-Ex.
 
 <b>Built with</b>
 - [Python](https://electron.atom.io)
@@ -35,8 +34,32 @@ open you terminal and run main.py
 it gets a set of 10000 new posts from reddit, and gets all the information about the posts then cleans the data, the final cleaned data is stored in the file train.json
 then it starts training on that data and saves the trained model as model.pkl
 
-
-
+## Directory Structure:
+```bash
+├── app.pu
+├── post_info.py
+├── main.py
+├── get_ids.py
+├── get_info.py
+├── normalise_data.py
+├── cleaning_data.py
+├── train.py
+├── Templates
+│   ├── base.html
+│   ├── index.html
+│   ├── predict.html
+|   
+├── Static 
+|    ├── style.css
+|
+├── nltk.txt
+|   
+├── test.json
+├── full_data.json
+├── id.json
+├── README.md
+├── package.json
+└── .gitignore
 ## Credits
 Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
 
