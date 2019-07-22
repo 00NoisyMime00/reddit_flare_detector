@@ -27,12 +27,12 @@ with flair among Science/Technology, Business/finance, political, non-political,
 paste the url in predict tab and press enter, and wait for the magic :D
 
 ## How to use?
-just clone the repo.
-Set up a python 3 virtual environment.
-download the requirements by pip3 install -r requirements.txt
-open you terminal and run main.py
-it gets a set of 10000 new posts from reddit, and gets all the information about the posts then cleans the data, the final cleaned data is stored in the file train.json
-then it starts training on that data and saves the trained model as model.pkl
+- just clone the repo.
+- Set up a python 3 virtual environment.
+- download the requirements by pip3 install -r requirements.txt
+- open you terminal and run main.py
+- it gets a set of 10000 new posts from reddit, and gets all the information about the posts then cleans the       data, the final cleaned data is stored in the file train.json
+- then it starts training on that data and saves the trained model as model.pkl
 
 ## Directory Structure:
 ```bash
