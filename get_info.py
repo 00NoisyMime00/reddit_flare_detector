@@ -4,7 +4,7 @@ from time import time
 
 
 def get_info():
-    reddit = praw.Reddit(client_id='kJnbFBn4D5XsWw',client_secret='zNFFGLE2t28P9s2eAY5-Cxu-OPQ', user_agent='web app:reddisFlair:v1.1 (by /u/00NoisyMime00)')
+    reddit = praw.Reddit(client_id='your_id',client_secret='your_client_secret', user_agent='type_your_user_agent')
 
     data = []
 
