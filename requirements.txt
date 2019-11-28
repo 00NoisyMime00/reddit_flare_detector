@@ -16,7 +16,7 @@ joblib==0.13.2
 jupyter-client==5.3.1
 jupyter-core==4.5.0
 MarkupSafe==1.1.1
-nltk==3.4.4
+nltk==3.4.5
 numpy==1.16.4
 parso==0.5.1
 pexpect==4.7.0
