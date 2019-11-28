@@ -4,7 +4,7 @@ The project predicts the flairs of posts on india subreddit.
 link: https://flairinator-api-heroku.herokuapp.com/predict
 
 ## Motivation
-Becoming a part of precog research group!!
+Analysing and predicting flairs for reddit posts on india subreddit.
 
 ## Tech/framework used
 
@@ -64,11 +64,7 @@ paste the url in predict tab and press enter, and wait for the magic :D
 ├── README.md
 ├── package.json
 └── .gitignore
-## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
 
 
-## License
-A short snippet describing the license (MIT, Apache etc)
 
 MIT © [Nikunj Singhal]()
