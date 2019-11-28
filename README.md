@@ -1,7 +1,6 @@
 # reddit_flare_detector.
 
 The project predicts the flairs of posts on india subreddit.
-link: https://flairinator-api-heroku.herokuapp.com/predict
 
 ## Motivation
 Analysing and predicting flairs for reddit posts on india subreddit.
